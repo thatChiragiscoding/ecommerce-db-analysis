@@ -1,22 +1,24 @@
-# Ecommerce SQL Analysis Project
+# 📊 Ecommerce Data Analysis with SQL
 
-This project demonstrates SQL queries for analyzing an ecommerce database, covering:
-- Database creation and table relationships
-- Data insertion and basic queries
-- Aggregations and joins
-- Subqueries and views
-- Query optimization
+This repository contains my solution for **Task 3: SQL for Data Analysis** from the Data Analyst Internship program. It demonstrates professional SQL techniques applied to an ecommerce database.
 
-## Files
-1. `Ecommerce.sql` - Complete SQL script with:
-   - Database schema setup
-   - Sample data insertion
-   - 7 analytical queries
-   - Indexes for optimization
+## 📂 Repository Contents
 
-2. `output_screenshots/` (Optional: Add your query result screenshots here)
+## 🛠️ Technical Implementation
 
-## 🛠Setup
-1. Run the SQL script in MySQL/PostgreSQL/SQLite:
-   ```bash
-   mysql -u username -p < Ecommerce.sql
+### Database Schema
+- **4 Normalized Tables**: Customers, Products, Orders, Order_Items
+- **Relationships**:
+  - Customers → Orders (1-to-Many)
+  - Orders → Order_Items (1-to-Many) 
+  - Products → Order_Items (1-to-Many)
+
+
+### Key Features:
+1. **Visual Hierarchy** - Clear section headers and badges
+2. **Business Context** - Connects SQL to real-world insights
+3. **Easy Navigation** - File structure map and usage instructions
+4. **Interview Alignment** - Explicitly links to task requirements
+5. **Professional Formatting** - Tables, code blocks, and icons
+
+
