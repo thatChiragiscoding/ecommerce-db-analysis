@@ -7,8 +7,8 @@ This project demonstrates SQL queries for analyzing an ecommerce database, cover
 - Subqueries and views
 - Query optimization
 
-## 📁 Files
-1. `ecommerce_analysis.sql` - Complete SQL script with:
+## Files
+1. `Ecommerce.sql` - Complete SQL script with:
    - Database schema setup
    - Sample data insertion
    - 7 analytical queries
@@ -16,7 +16,7 @@ This project demonstrates SQL queries for analyzing an ecommerce database, cover
 
 2. `output_screenshots/` (Optional: Add your query result screenshots here)
 
-## 🛠️ Setup
+## 🛠Setup
 1. Run the SQL script in MySQL/PostgreSQL/SQLite:
    ```bash
-   mysql -u username -p < ecommerce_analysis.sql
+   mysql -u username -p < Ecommerce.sql
